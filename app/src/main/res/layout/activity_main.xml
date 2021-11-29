@@ -4,7 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradientbg"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/searchlayout"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search Your Favorite Images!"
+            android:padding="10dp"
+            android:background="#41150606"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/edittext"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/search"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_search"
+            android:layout_marginLeft="-50dp"
+            android:tint="@color/white">
+
+        </ImageButton>
+
+
+    </LinearLayout>
 
 </RelativeLayout>

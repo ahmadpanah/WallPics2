@@ -21,6 +21,7 @@
         android:textSize="15sp"
         android:text="Set Wallpaper!"
         android:textStyle="bold"
+        android:backgroundTint="@color/black"
         android:layout_alignParentBottom="true"
         android:layout_margin="40dp"
         android:id="@+id/set">

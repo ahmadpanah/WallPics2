@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String query = editText.toString().trim().toLowerCase();
+                String query = editText.getText().toString().trim().toLowerCase();
                 if (query.isEmpty())
                 {
                     Toast.makeText(getApplicationContext(), "Enter a Word", Toast.LENGTH_SHORT).show();
